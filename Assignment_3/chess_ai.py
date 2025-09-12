@@ -211,9 +211,9 @@ class State:
         # (a) MATERIAL
         piece_values = {
             chess.PAWN: 1,
-            chess.KNIGHT: 3,
-            chess.BISHOP: 3,
-            chess.ROOK: 5,
+            chess.KNIGHT: 4,
+            chess.BISHOP: 4,
+            chess.ROOK: 6,
             chess.QUEEN: 9,
             chess.KING: 0
         }
@@ -226,8 +226,7 @@ class State:
         for sq in center_squares:
             piece = self.board.piece_at(sq)
             if piece:
-                score += 0.2 if piece.color == chess.WHITE else -0.2
-
+                score += 0.3 if piece.color == chess.WHITE else -0.3
         # (c) MOBILITY
         b = self.board.copy()
         b.turn = chess.WHITE
