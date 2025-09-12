@@ -1,7 +1,7 @@
 # AI_Assignments
-Name: Udaykumar Angari
-ID:B211449
-Class:E3-CSE-C1
+Name: Udaykumar Angari <br>
+ID:B211449 <br>
+Class:E3-CSE-C1 <br>
 Roll No: 50
 
 This repo consists of  <b> AI Assignment </b> solutions of E3-S1(AY25-26) 
